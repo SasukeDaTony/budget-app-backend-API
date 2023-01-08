@@ -1,0 +1,23 @@
+{
+  "name": "budget-app-backend-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SasukeDaTony/budget-app-backend-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SasukeDaTony/budget-app-backend-API/issues"
+  },
+  "homepage": "https://github.com/SasukeDaTony/budget-app-backend-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
