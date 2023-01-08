@@ -49,3 +49,5 @@ const transactionsData = [
     category: "subcription",
   },
 ];
+
+module.exports = transactionsData;
