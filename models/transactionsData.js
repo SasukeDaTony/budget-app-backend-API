@@ -4,11 +4,11 @@ const transactionsData = [
     amount: -650,
     date: "04/01/2022",
     from: "anthony taylor",
-    category: "rent",
+    category: "bills",
   },
   {
     item_name: "retirement",
-    amount: 150,
+    amount: -150,
     date: "04/02/2022",
     from: "checking account",
     category: "savings",
@@ -25,29 +25,46 @@ const transactionsData = [
     amount: -80,
     date: "04/05/2022",
     from: "sprint",
-    category: "billing",
+    category: "bills",
   },
   {
     item_name: "credit card",
     amount: -200,
     date: "04/15/2022",
     from: "mastercard",
-    category: "billing",
+    category: "bills",
   },
   {
-    item_name: "subscription",
-    amount: 18.99,
+    item_name: "Code Academy",
+    amount: -18.99,
     date: "04/17/2022",
     from: "code academy",
-    category: "subscription",
+    category: "bills",
   },
   {
-    item_name: "subscription",
-    amount: 22.99,
+    item_name: "NETFLIX",
+    amount: -22.99,
     date: "04/21/2022",
     from: "netflix",
-    category: "subcription",
+    category: "bills",
   },
+  {
+    item_name: "DisneyPlus",
+    amount: -22.99,
+    date: "05/19/2022",
+    from: "disney plus",
+    category: "bills",
+  },
+  {
+    item_name: "Riot Games Paycheck",
+    amount: 1250,
+    date: "04/21/2022",
+    from: "riot games",
+    category: "savings",
+  },
+
 ];
+
+
 
 module.exports = transactionsData;
